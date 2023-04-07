@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisExport>
+<Object class="com.sunopsis.dwg.dbobj.SnpTrt">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:45.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IndJrnMethod" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IFolder" type="com.sunopsis.sql.DbInt"><![CDATA[2001]]></Field>
+	<Field name="IProject" type="com.sunopsis.sql.DbInt"><![CDATA[1001]]></Field>
+	<Field name="IState" type="com.sunopsis.sql.DbInt"><![CDATA[3005]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtTrtTxt" type="com.sunopsis.sql.DbInt"><![CDATA[196001]]></Field>
+	<Field name="KimMultiDserver" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KmDefault" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KmSrcTechno" type="java.lang.String">null</Field>
+	<Field name="KmTechno" type="java.lang.String"><![CDATA[JYTHON]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 19:20:20.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LChecksum" type="com.sunopsis.sql.DbInt"><![CDATA[3757]]></Field>
+	<Field name="LCode" type="java.lang.String">null</Field>
+	<Field name="OrdFolder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="TrtName" type="java.lang.String"><![CDATA[Send Jython HTML Email]]></Field>
+	<Field name="TrtType" type="java.lang.String"><![CDATA[U]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[196001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Date: AUG-2004
+Author: Sunopsis
+
+Will Use a Jython Script to send HTML formatted Emails.
+Will allow user to enter a user name and password for SMTP authentication.
+
+-------------------------------------------------------------------------------------------------
+Modify: AUG-2010
+Author: Aleksey Movchanyuk
+
+?????????? ????? ????? ??????? ????? ???????? ????????? ?????? ? ??????? ???????? ??????]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[1001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 19:20:20.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 19:20:20.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpOrigTxt">
+		<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[1001]]></Field>
+	<Field name="OrigineName" type="java.lang.String"><![CDATA[Edit Command]]></Field>
+	<Field name="SnpsCol" type="java.lang.String"><![CDATA[I_TXT_TRT_TXT]]></Field>
+	<Field name="SnpsTable" type="java.lang.String"><![CDATA[SNP_TRT]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[197001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[21001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ShortValue" type="java.lang.String"><![CDATA[<hostname>]]></Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[Host]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[Host of Mail Server]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[V]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[197001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Host for Mail Server]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:36.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:36.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpOrigTxt">
+		<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="OrigineName" type="java.lang.String"><![CDATA[User Exit help]]></Field>
+	<Field name="SnpsCol" type="java.lang.String"><![CDATA[I_TXT_UE_HELP]]></Field>
+	<Field name="SnpsTable" type="java.lang.String"><![CDATA[SNP_USER_EXIT]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[198001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[22001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="ShortValue" type="java.lang.String"><![CDATA[25]]></Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[Port]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[Port number for Mailer Server]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[V]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[198001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Port number used to connect to Mail Server]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:36.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:36.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[199001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[23001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[3]]></Field>
+	<Field name="ShortValue" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[SMTP Auth]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[SMTP Authentication Required]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[199001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Is SMTP Authentication required in order to send email.]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[200001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[24001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[4]]></Field>
+	<Field name="ShortValue" type="java.lang.String"><![CDATA[User_name]]></Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[User]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[User name for SMTP login]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[V]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[200001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[User name to use in order to login to the SMTP server.]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[201001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[25001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[5]]></Field>
+	<Field name="ShortValue" type="java.lang.String"><![CDATA[<password>]]></Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[Password]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[Password for SMTP login]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[V]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[201001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Password to use in order to login to the SMTP server.]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[202001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[26001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
+	<Field name="ShortValue" type="java.lang.String"><![CDATA[someone@address.com]]></Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[To]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[To: Email Address]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[V]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[202001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Email being sent to.  Use commas to delimit multiple addresses.]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[203001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[27001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[7]]></Field>
+	<Field name="ShortValue" type="java.lang.String"><![CDATA[someone@address.com]]></Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[From]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[From: Email Address]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[V]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[203001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Email being sent from.]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[204001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[28001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[8]]></Field>
+	<Field name="ShortValue" type="java.lang.String"><![CDATA[<Email Message>]]></Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[Subject]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[Subject line of Email]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[V]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[204001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Subject line used for Email message.]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[205001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[29001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[9]]></Field>
+	<Field name="ShortValue" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[LoadfromFile]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[Set to YES to load from file]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[205001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Set to YES to load message information from file.]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:37.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[206001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[30001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="ShortValue" type="java.lang.String"><![CDATA[<path to file>]]></Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[FilePath]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[Path to Message File]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[V]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[206001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Path to Message File.  Be sure to use front (/) slashes.]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:38.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:38.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[208001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[207001]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[31001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[11]]></Field>
+	<Field name="ShortValue" type="java.lang.String">null</Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[MessageText]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[Text of Email Message]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[T]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[207001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Sample text for email message.\
+Signed,\
+SAMPLE]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[7001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:38.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:38.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpOrigTxt">
+		<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[7001]]></Field>
+	<Field name="OrigineName" type="java.lang.String"><![CDATA[Text value]]></Field>
+	<Field name="SnpsCol" type="java.lang.String"><![CDATA[I_TXT_VALUE]]></Field>
+	<Field name="SnpsTable" type="java.lang.String"><![CDATA[SNP_USER_EXIT]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[208001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Text of Email Message.  Ignore this if you are loading from a file.]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:38.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:38.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[209001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[32001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[12]]></Field>
+	<Field name="ShortValue" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[Is HTML]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[Is this message HTML]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[209001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Set to YES if this email is HTML and NO if it is plain text.]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:38.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:38.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[33001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[13]]></Field>
+	<Field name="ShortValue" type="java.lang.String">null</Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[Attachments]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[Comma Delimited Attachments]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[T]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[220001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[221001]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[35001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ShortValue" type="java.lang.String">null</Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[Charset]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[????????? ??????]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[T]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[221001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[utf-8]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[7001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 18:39:06.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 18:39:06.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[220001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[????????? ??????]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 18:39:06.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 18:39:06.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserExit">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="ITxtUeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[219001]]></Field>
+	<Field name="ITxtValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[34001]]></Field>
+	<Field name="Position" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ShortValue" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="UeName" type="java.lang.String"><![CDATA[Priority]]></Field>
+	<Field name="UeSdesc" type="java.lang.String"><![CDATA[???????? ??????]]></Field>
+	<Field name="UeType" type="java.lang.String"><![CDATA[V]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[219001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[???????? ??????
+1.	?????? ?????? 
+3.	??????? ??????
+5.	?????????? ??????
+]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 18:34:47.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 18:34:47.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLineTrt">
+		<Field name="AlwaysExe" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColITxt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColPlanComp" type="java.lang.String">null</Field>
+	<Field name="ColTechno" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefITxt" type="com.sunopsis.sql.DbInt"><![CDATA[210001]]></Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefPlanComp" type="java.lang.String">null</Field>
+	<Field name="DefTechno" type="java.lang.String"><![CDATA[JYTHON]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="KcmAk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmCond" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmErrDel" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmJoin" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmNull" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmPk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrnPop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmCreate" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmDrop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmExtend" type="java.lang.String">null</Field>
+	<Field name="KjmLock" type="java.lang.String">null</Field>
+	<Field name="KjmPurge" type="java.lang.String">null</Field>
+	<Field name="KjmSetInstall" type="java.lang.String">null</Field>
+	<Field name="KjmSetUninstall" type="java.lang.String">null</Field>
+	<Field name="KjmSubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmTableOrder" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmUnlock" type="java.lang.String">null</Field>
+	<Field name="KjmUnsubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmAfterInt" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KxmUsed" type="java.lang.String">null</Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="SqlName" type="java.lang.String"><![CDATA[Create Email Connection]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[210001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[import sys
+import smtplib
+import MimeWriter
+import base64
+import StringIO
+import javax.activation.MimetypesFileTypeMap as MimetypesFileTypeMap
+mType = MimetypesFileTypeMap()
+
+sender = smtplib.SMTP('<%=snpRef.getOption("Host")%>',25)]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[2001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[2]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:38.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:38.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpOrigTxt">
+		<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[2001]]></Field>
+	<Field name="OrigineName" type="java.lang.String"><![CDATA[Target Technology]]></Field>
+	<Field name="SnpsCol" type="java.lang.String"><![CDATA[DEF_I_TXT]]></Field>
+	<Field name="SnpsTable" type="java.lang.String"><![CDATA[SNP_LINE_TRT]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLineTrt">
+		<Field name="AlwaysExe" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColITxt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColPlanComp" type="java.lang.String">null</Field>
+	<Field name="ColTechno" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefITxt" type="com.sunopsis.sql.DbInt"><![CDATA[211001]]></Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefPlanComp" type="java.lang.String">null</Field>
+	<Field name="DefTechno" type="java.lang.String"><![CDATA[JYTHON]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="KcmAk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmCond" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmErrDel" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmJoin" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmNull" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmPk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrnPop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmCreate" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmDrop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmExtend" type="java.lang.String">null</Field>
+	<Field name="KjmLock" type="java.lang.String">null</Field>
+	<Field name="KjmPurge" type="java.lang.String">null</Field>
+	<Field name="KjmSetInstall" type="java.lang.String">null</Field>
+	<Field name="KjmSetUninstall" type="java.lang.String">null</Field>
+	<Field name="KjmSubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmTableOrder" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmUnlock" type="java.lang.String">null</Field>
+	<Field name="KjmUnsubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmAfterInt" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KxmUsed" type="java.lang.String">null</Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="SqlName" type="java.lang.String"><![CDATA[Add Extra Mime Types]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[211001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[mType.addMimeTypes("x-world/x-3dmf 3dm")
+mType.addMimeTypes("x-world/x-3dmf 3dmf")
+mType.addMimeTypes("application/octet-stream a")
+mType.addMimeTypes("application/x-authorware-bin aab")
+mType.addMimeTypes("application/x-authorware-map aam")
+mType.addMimeTypes("application/x-authorware-seg aas")
+mType.addMimeTypes("text/vnd.abc abc")
+mType.addMimeTypes("text/csv csv")
+mType.addMimeTypes("text/html acgi")
+mType.addMimeTypes("video/animaflex afl")
+mType.addMimeTypes("application/postscript ai")
+mType.addMimeTypes("audio/aiff aif")
+mType.addMimeTypes("audio/x-aiff aif")
+mType.addMimeTypes("audio/aiff aifc")
+mType.addMimeTypes("audio/x-aiff aifc")
+mType.addMimeTypes("audio/aiff aiff")
+mType.addMimeTypes("audio/x-aiff aiff")
+mType.addMimeTypes("application/x-aim aim")
+mType.addMimeTypes("text/x-audiosoft-intra aip")
+mType.addMimeTypes("application/x-navi-animation ani")
+mType.addMimeTypes("application/x-nokia-9000-communicator-add-on-software aos")
+mType.addMimeTypes("application/mime aps")
+mType.addMimeTypes("application/octet-stream arc")
+mType.addMimeTypes("application/arj arj")
+mType.addMimeTypes("application/octet-stream arj")
+mType.addMimeTypes("image/x-jg art")
+mType.addMimeTypes("video/x-ms-asf asf")
+mType.addMimeTypes("text/x-asm asm")
+mType.addMimeTypes("text/asp asp")
+mType.addMimeTypes("application/x-mplayer2 asx")
+mType.addMimeTypes("video/x-ms-asf asx")
+mType.addMimeTypes("video/x-ms-asf-plugin asx")
+mType.addMimeTypes("audio/basic au")
+mType.addMimeTypes("audio/x-au au")
+mType.addMimeTypes("application/x-troff-msvideo avi")
+mType.addMimeTypes("video/avi avi")
+mType.addMimeTypes("video/msvideo avi")
+mType.addMimeTypes("video/x-msvideo avi")
+mType.addMimeTypes("video/avs-video avs")
+mType.addMimeTypes("application/x-bcpio bcpio")
+mType.addMimeTypes("application/mac-binary bin")
+mType.addMimeTypes("application/macbinary bin")
+mType.addMimeTypes("application/octet-stream bin")
+mType.addMimeTypes("application/x-binary bin")
+mType.addMimeTypes("application/x-macbinary bin")
+mType.addMimeTypes("image/bmp bm")
+mType.addMimeTypes("image/bmp bmp")
+mType.addMimeTypes("image/x-windows-bmp bmp")
+mType.addMimeTypes("application/book boo")
+mType.addMimeTypes("application/book book")
+mType.addMimeTypes("application/x-bzip2 boz")
+mType.addMimeTypes("application/x-bsh bsh")
+mType.addMimeTypes("application/x-bzip bz")
+mType.addMimeTypes("application/x-bzip2 bz2")
+mType.addMimeTypes("text/plain c")
+mType.addMimeTypes("text/x-c c")
+mType.addMimeTypes("text/plain c++")
+mType.addMimeTypes("application/vnd.ms-pki.seccat cat")
+mType.addMimeTypes("text/plain cc")
+mType.addMimeTypes("text/x-c cc")
+mType.addMimeTypes("application/clariscad ccad")
+mType.addMimeTypes("application/x-cocoa cco")
+mType.addMimeTypes("application/cdf cdf")
+mType.addMimeTypes("application/x-cdf cdf")
+mType.addMimeTypes("application/x-netcdf cdf")
+mType.addMimeTypes("application/pkix-cert cer")
+mType.addMimeTypes("application/x-x509-ca-cert cer")
+mType.addMimeTypes("application/x-chat cha")
+mType.addMimeTypes("application/x-chat chat")
+mType.addMimeTypes("application/java class")
+mType.addMimeTypes("application/java-byte-code class")
+mType.addMimeTypes("application/x-java-class class")
+mType.addMimeTypes("application/octet-stream com")
+mType.addMimeTypes("text/plain com")
+mType.addMimeTypes("text/plain conf")
+mType.addMimeTypes("application/x-cpio cpio")
+mType.addMimeTypes("text/x-c cpp")
+mType.addMimeTypes("application/mac-compactpro cpt")
+mType.addMimeTypes("application/x-compactpro cpt")
+mType.addMimeTypes("application/x-cpt cpt")
+mType.addMimeTypes("application/pkcs-crl crl")
+mType.addMimeTypes("application/pkix-crl crl")
+mType.addMimeTypes("application/pkix-cert crt")
+mType.addMimeTypes("application/x-x509-ca-cert crt")
+mType.addMimeTypes("application/x-x509-user-cert crt")
+mType.addMimeTypes("application/x-csh csh")
+mType.addMimeTypes("text/x-script.csh csh")
+mType.addMimeTypes("application/x-pointplus css")
+mType.addMimeTypes("text/css css")
+mType.addMimeTypes("text/plain cxx")
+mType.addMimeTypes("application/x-director dcr")
+mType.addMimeTypes("application/x-deepv deepv")
+mType.addMimeTypes("text/plain def")
+mType.addMimeTypes("application/x-x509-ca-cert der")
+mType.addMimeTypes("video/x-dv dif")
+mType.addMimeTypes("application/x-director dir")
+mType.addMimeTypes("video/dl dl")
+mType.addMimeTypes("video/x-dl dl")
+mType.addMimeTypes("application/msword doc")
+mType.addMimeTypes("application/msword dot")
+mType.addMimeTypes("application/commonground dp")
+mType.addMimeTypes("application/drafting drw")
+mType.addMimeTypes("application/octet-stream dump")
+mType.addMimeTypes("video/x-dv dv")
+mType.addMimeTypes("application/x-dvi dvi")
+mType.addMimeTypes("drawing/x-dwf dwf")
+mType.addMimeTypes("model/vnd.dwf dwf")
+mType.addMimeTypes("application/acad dwg")
+mType.addMimeTypes("image/vnd.dwg dwg")
+mType.addMimeTypes("image/x-dwg dwg")
+mType.addMimeTypes("application/dxf dxf")
+mType.addMimeTypes("image/vnd.dwg dxf")
+mType.addMimeTypes("image/x-dwg dxf")
+mType.addMimeTypes("application/x-director dxr")
+mType.addMimeTypes("text/x-script.elisp el")
+mType.addMimeTypes("application/x-bytecode.elisp elc")
+mType.addMimeTypes("application/x-elc elc")
+mType.addMimeTypes("application/x-envoy env")
+mType.addMimeTypes("application/postscript eps")
+mType.addMimeTypes("application/x-esrehber es")
+mType.addMimeTypes("text/x-setext etx")
+mType.addMimeTypes("application/envoy evy")
+mType.addMimeTypes("application/x-envoy evy")
+mType.addMimeTypes("application/octet-stream exe")
+mType.addMimeTypes("text/plain f")
+mType.addMimeTypes("text/x-fortran f")
+mType.addMimeTypes("text/x-fortran f77")
+mType.addMimeTypes("text/plain f90")
+mType.addMimeTypes("text/x-fortran f90")
+mType.addMimeTypes("application/vnd.fdf fdf")
+mType.addMimeTypes("application/fractals fif")
+mType.addMimeTypes("image/fif fif")
+mType.addMimeTypes("video/fli fli")
+mType.addMimeTypes("video/x-fli fli")
+mType.addMimeTypes("image/florian flo")
+mType.addMimeTypes("text/vnd.fmi.flexstor flx")
+mType.addMimeTypes("video/x-atomic3d-feature fmf")
+mType.addMimeTypes("text/plain for")
+mType.addMimeTypes("text/x-fortran for")
+mType.addMimeTypes("image/vnd.fpx fpx")
+mType.addMimeTypes("image/vnd.net-fpx fpx")
+mType.addMimeTypes("application/freeloader frl")
+mType.addMimeTypes("audio/make funk")
+mType.addMimeTypes("text/plain g")
+mType.addMimeTypes("image/g3fax g3")
+mType.addMimeTypes("image/gif gif")
+mType.addMimeTypes("video/gl gl")
+mType.addMimeTypes("video/x-gl gl")
+mType.addMimeTypes("audio/x-gsm gsd")
+mType.addMimeTypes("audio/x-gsm gsm")
+mType.addMimeTypes("application/x-gsp gsp")
+mType.addMimeTypes("application/x-gss gss")
+mType.addMimeTypes("application/x-gtar gtar")
+mType.addMimeTypes("application/x-compressed gz")
+mType.addMimeTypes("application/x-gzip gz")
+mType.addMimeTypes("application/x-gzip gzip")
+mType.addMimeTypes("multipart/x-gzip gzip")
+mType.addMimeTypes("text/plain h")
+mType.addMimeTypes("text/x-h h")
+mType.addMimeTypes("application/x-hdf hdf")
+mType.addMimeTypes("application/x-helpfile help")
+mType.addMimeTypes("application/vnd.hp-hpgl hgl")
+mType.addMimeTypes("text/plain hh")
+mType.addMimeTypes("text/x-h hh")
+mType.addMimeTypes("text/x-script hlb")
+mType.addMimeTypes("application/hlp hlp")
+mType.addMimeTypes("application/x-helpfile hlp")
+mType.addMimeTypes("application/x-winhelp hlp")
+mType.addMimeTypes("application/vnd.hp-hpgl hpg")
+mType.addMimeTypes("application/vnd.hp-hpgl hpgl")
+mType.addMimeTypes("application/binhex hqx")
+mType.addMimeTypes("application/binhex4 hqx")
+mType.addMimeTypes("application/mac-binhex hqx")
+mType.addMimeTypes("application/mac-binhex40 hqx")
+mType.addMimeTypes("application/x-binhex40 hqx")
+mType.addMimeTypes("application/x-mac-binhex40 hqx")
+mType.addMimeTypes("application/hta hta")
+mType.addMimeTypes("text/x-component htc")
+mType.addMimeTypes("text/html htm")
+mType.addMimeTypes("text/html html")
+mType.addMimeTypes("text/html htmls")
+mType.addMimeTypes("text/webviewhtml htt")
+mType.addMimeTypes("text/html htx")
+mType.addMimeTypes("x-conference/x-cooltalk ice")
+mType.addMimeTypes("image/x-icon ico")
+mType.addMimeTypes("text/plain idc")
+mType.addMimeTypes("image/ief ief")
+mType.addMimeTypes("image/ief iefs")
+mType.addMimeTypes("application/iges iges")
+mType.addMimeTypes("model/iges iges")
+mType.addMimeTypes("application/iges igs")
+mType.addMimeTypes("model/iges igs")
+mType.addMimeTypes("application/x-ima ima")
+mType.addMimeTypes("application/x-httpd-imap imap")
+mType.addMimeTypes("application/inf inf")
+mType.addMimeTypes("application/x-internett-signup ins")
+mType.addMimeTypes("application/x-ip2 ip")
+mType.addMimeTypes("video/x-isvideo isu")
+mType.addMimeTypes("audio/it it")
+mType.addMimeTypes("application/x-inventor iv")
+mType.addMimeTypes("i-world/i-vrml ivr")
+mType.addMimeTypes("application/x-livescreen ivy")
+mType.addMimeTypes("audio/x-jam jam")
+mType.addMimeTypes("text/plain jav")
+mType.addMimeTypes("text/x-java-source jav")
+mType.addMimeTypes("text/plain java")
+mType.addMimeTypes("text/x-java-source java")
+mType.addMimeTypes("application/x-java-commerce jcm")
+mType.addMimeTypes("image/jpeg jfif")
+mType.addMimeTypes("image/pjpeg jfif")
+mType.addMimeTypes("image/jpeg jfif-tbnl")
+mType.addMimeTypes("image/jpeg jpe")
+mType.addMimeTypes("image/pjpeg jpe")
+mType.addMimeTypes("image/jpeg jpeg")
+mType.addMimeTypes("image/pjpeg jpeg")
+mType.addMimeTypes("image/jpeg jpg")
+mType.addMimeTypes("image/pjpeg jpg")
+mType.addMimeTypes("image/x-jps jps")
+mType.addMimeTypes("application/x-javascript js")
+mType.addMimeTypes("image/jutvision jut")
+mType.addMimeTypes("audio/midi kar")
+mType.addMimeTypes("music/x-karaoke kar")
+mType.addMimeTypes("application/x-ksh ksh")
+mType.addMimeTypes("text/x-script.ksh ksh")
+mType.addMimeTypes("audio/nspaudio la")
+mType.addMimeTypes("audio/x-nspaudio la")
+mType.addMimeTypes("audio/x-liveaudio lam")
+mType.addMimeTypes("application/x-latex latex")
+mType.addMimeTypes("application/lha lha")
+mType.addMimeTypes("application/octet-stream lha")
+mType.addMimeTypes("application/x-lha lha")
+mType.addMimeTypes("application/octet-stream lhx")
+mType.addMimeTypes("text/plain list")
+mType.addMimeTypes("audio/nspaudio lma")
+mType.addMimeTypes("audio/x-nspaudio lma")
+mType.addMimeTypes("text/plain log")
+mType.addMimeTypes("application/x-lisp lsp")
+mType.addMimeTypes("text/x-script.lisp lsp")
+mType.addMimeTypes("text/plain lst")
+mType.addMimeTypes("text/x-la-asf lsx")
+mType.addMimeTypes("application/x-latex ltx")
+mType.addMimeTypes("application/octet-stream lzh")
+mType.addMimeTypes("application/x-lzh lzh")
+mType.addMimeTypes("application/lzx lzx")
+mType.addMimeTypes("application/octet-stream lzx")
+mType.addMimeTypes("application/x-lzx lzx")
+mType.addMimeTypes("text/plain m")
+mType.addMimeTypes("text/x-m m")
+mType.addMimeTypes("video/mpeg m1v")
+mType.addMimeTypes("audio/mpeg m2a")
+mType.addMimeTypes("video/mpeg m2v")
+mType.addMimeTypes("audio/x-mpequrl m3u")
+mType.addMimeTypes("application/x-troff-man man")
+mType.addMimeTypes("application/x-navimap map")
+mType.addMimeTypes("text/plain mar")
+mType.addMimeTypes("application/mbedlet mbd")
+mType.addMimeTypes("application/x-magic-cap-package-1.0 mc$")
+mType.addMimeTypes("application/mcad mcd")
+mType.addMimeTypes("application/x-mathcad mcd")
+mType.addMimeTypes("image/vasa mcf")
+mType.addMimeTypes("text/mcf mcf")
+mType.addMimeTypes("application/netmc mcp")
+mType.addMimeTypes("application/x-troff-me me")
+mType.addMimeTypes("message/rfc822 mht")
+mType.addMimeTypes("message/rfc822 mhtml")
+mType.addMimeTypes("application/x-midi mid")
+mType.addMimeTypes("audio/midi mid")
+mType.addMimeTypes("audio/x-mid mid")
+mType.addMimeTypes("audio/x-midi mid")
+mType.addMimeTypes("music/crescendo mid")
+mType.addMimeTypes("x-music/x-midi mid")
+mType.addMimeTypes("application/x-midi midi")
+mType.addMimeTypes("audio/midi midi")
+mType.addMimeTypes("audio/x-mid midi")
+mType.addMimeTypes("audio/x-midi midi")
+mType.addMimeTypes("music/crescendo midi")
+mType.addMimeTypes("x-music/x-midi midi")
+mType.addMimeTypes("application/x-frame mif")
+mType.addMimeTypes("application/x-mif mif")
+mType.addMimeTypes("message/rfc822 mime")
+mType.addMimeTypes("www/mime mime")
+mType.addMimeTypes("audio/x-vnd.audioexplosion.mjuicemediafile mjf")
+mType.addMimeTypes("video/x-motion-jpeg mjpg")
+mType.addMimeTypes("application/base64 mm")
+mType.addMimeTypes("application/x-meme mm")
+mType.addMimeTypes("application/base64 mme")
+mType.addMimeTypes("audio/mod mod")
+mType.addMimeTypes("audio/x-mod mod")
+mType.addMimeTypes("video/quicktime moov")
+mType.addMimeTypes("video/quicktime mov")
+mType.addMimeTypes("video/x-sgi-movie movie")
+mType.addMimeTypes("audio/mpeg mp2")
+mType.addMimeTypes("audio/x-mpeg mp2")
+mType.addMimeTypes("video/mpeg mp2")
+mType.addMimeTypes("video/x-mpeg mp2")
+mType.addMimeTypes("video/x-mpeq2a mp2")
+mType.addMimeTypes("audio/mpeg3 mp3")
+mType.addMimeTypes("audio/x-mpeg-3 mp3")
+mType.addMimeTypes("video/mpeg mp3")
+mType.addMimeTypes("video/x-mpeg mp3")
+mType.addMimeTypes("audio/mpeg mpa")
+mType.addMimeTypes("video/mpeg mpa")
+mType.addMimeTypes("application/x-project mpc")
+mType.addMimeTypes("video/mpeg mpe")
+mType.addMimeTypes("video/mpeg mpeg")
+mType.addMimeTypes("audio/mpeg mpg")
+mType.addMimeTypes("video/mpeg mpg")
+mType.addMimeTypes("audio/mpeg mpga")
+mType.addMimeTypes("application/vnd.ms-project mpp")
+mType.addMimeTypes("application/x-project mpt")
+mType.addMimeTypes("application/x-project mpv")
+mType.addMimeTypes("application/x-project mpx")
+mType.addMimeTypes("application/marc mrc")
+mType.addMimeTypes("application/x-troff-ms ms")
+mType.addMimeTypes("video/x-sgi-movie mv")
+mType.addMimeTypes("audio/make my")
+mType.addMimeTypes("application/x-vnd.audioexplosion.mzz mzz")
+mType.addMimeTypes("image/naplps nap")
+mType.addMimeTypes("image/naplps naplps")
+mType.addMimeTypes("application/x-netcdf nc")
+mType.addMimeTypes("application/vnd.nokia.configuration-message ncm")
+mType.addMimeTypes("image/x-niff nif")
+mType.addMimeTypes("image/x-niff niff")
+mType.addMimeTypes("application/x-mix-transfer nix")
+mType.addMimeTypes("application/x-conference nsc")
+mType.addMimeTypes("application/x-navidoc nvd")
+mType.addMimeTypes("application/octet-stream o")
+mType.addMimeTypes("application/oda oda")
+mType.addMimeTypes("application/x-omc omc")
+mType.addMimeTypes("application/x-omcdatamaker omcd")
+mType.addMimeTypes("application/x-omcregerator omcr")
+mType.addMimeTypes("text/x-pascal p")
+mType.addMimeTypes("application/pkcs10 p10")
+mType.addMimeTypes("application/x-pkcs10 p10")
+mType.addMimeTypes("application/pkcs-12 p12")
+mType.addMimeTypes("application/x-pkcs12 p12")
+mType.addMimeTypes("application/x-pkcs7-signature p7a")
+mType.addMimeTypes("application/pkcs7-mime p7c")
+mType.addMimeTypes("application/x-pkcs7-mime p7c")
+mType.addMimeTypes("application/pkcs7-mime p7m")
+mType.addMimeTypes("application/x-pkcs7-mime p7m")
+mType.addMimeTypes("application/x-pkcs7-certreqresp p7r")
+mType.addMimeTypes("application/pkcs7-signature p7s")
+mType.addMimeTypes("application/pro_eng part")
+mType.addMimeTypes("text/pascal pas")
+mType.addMimeTypes("image/x-portable-bitmap pbm")
+mType.addMimeTypes("application/vnd.hp-pcl pcl")
+mType.addMimeTypes("application/x-pcl pcl")
+mType.addMimeTypes("image/x-pict pct")
+mType.addMimeTypes("image/x-pcx pcx")
+mType.addMimeTypes("chemical/x-pdb pdb")
+mType.addMimeTypes("application/pdf pdf")
+mType.addMimeTypes("audio/make pfunk")
+mType.addMimeTypes("audio/make.my.funk pfunk")
+mType.addMimeTypes("image/x-portable-graymap pgm")
+mType.addMimeTypes("image/x-portable-greymap pgm")
+mType.addMimeTypes("image/pict pic")
+mType.addMimeTypes("image/pict pict")
+mType.addMimeTypes("application/x-newton-compatible-pkg pkg")
+mType.addMimeTypes("application/vnd.ms-pki.pko pko")
+mType.addMimeTypes("text/plain pl")
+mType.addMimeTypes("text/x-script.perl pl")
+mType.addMimeTypes("application/x-pixclscript plx")
+mType.addMimeTypes("image/x-xpixmap pm")
+mType.addMimeTypes("text/x-script.perl-module pm")
+mType.addMimeTypes("application/x-pagemaker pm4")
+mType.addMimeTypes("application/x-pagemaker pm5")
+mType.addMimeTypes("image/png png")
+mType.addMimeTypes("application/x-portable-anymap pnm")
+mType.addMimeTypes("image/x-portable-anymap pnm")
+mType.addMimeTypes("application/mspowerpoint pot")
+mType.addMimeTypes("application/vnd.ms-powerpoint pot")
+mType.addMimeTypes("model/x-pov pov")
+mType.addMimeTypes("application/vnd.ms-powerpoint ppa")
+mType.addMimeTypes("image/x-portable-pixmap ppm")
+mType.addMimeTypes("application/mspowerpoint pps")
+mType.addMimeTypes("application/vnd.ms-powerpoint pps")
+mType.addMimeTypes("application/mspowerpoint ppt")
+mType.addMimeTypes("application/powerpoint ppt")
+mType.addMimeTypes("application/vnd.ms-powerpoint ppt")
+mType.addMimeTypes("application/x-mspowerpoint ppt")
+mType.addMimeTypes("application/mspowerpoint ppz")
+mType.addMimeTypes("application/x-freelance pre")
+mType.addMimeTypes("application/pro_eng prt")
+mType.addMimeTypes("application/postscript ps")
+mType.addMimeTypes("application/octet-stream psd")
+mType.addMimeTypes("paleovu/x-pv pvu")
+mType.addMimeTypes("application/vnd.ms-powerpoint pwz")
+mType.addMimeTypes("text/x-script.phyton py")
+mType.addMimeTypes("applicaiton/x-bytecode.python pyc")
+mType.addMimeTypes("audio/vnd.qcelp qcp")
+mType.addMimeTypes("x-world/x-3dmf qd3")
+mType.addMimeTypes("x-world/x-3dmf qd3d")
+mType.addMimeTypes("image/x-quicktime qif")
+mType.addMimeTypes("video/quicktime qt")
+mType.addMimeTypes("video/x-qtc qtc")
+mType.addMimeTypes("image/x-quicktime qti")
+mType.addMimeTypes("image/x-quicktime qtif")
+mType.addMimeTypes("audio/x-pn-realaudio ra")
+mType.addMimeTypes("audio/x-pn-realaudio-plugin ra")
+mType.addMimeTypes("audio/x-realaudio ra")
+mType.addMimeTypes("audio/x-pn-realaudio ram")
+mType.addMimeTypes("application/x-cmu-raster ras")
+mType.addMimeTypes("image/cmu-raster ras")
+mType.addMimeTypes("image/x-cmu-raster ras")
+mType.addMimeTypes("image/cmu-raster rast")
+mType.addMimeTypes("text/x-script.rexx rexx")
+mType.addMimeTypes("image/vnd.rn-realflash rf")
+mType.addMimeTypes("image/x-rgb rgb")
+mType.addMimeTypes("application/vnd.rn-realmedia rm")
+mType.addMimeTypes("audio/x-pn-realaudio rm")
+mType.addMimeTypes("audio/mid rmi")
+mType.addMimeTypes("audio/x-pn-realaudio rmm")
+mType.addMimeTypes("audio/x-pn-realaudio rmp")
+mType.addMimeTypes("audio/x-pn-realaudio-plugin rmp")
+mType.addMimeTypes("application/ringing-tones rng")
+mType.addMimeTypes("application/vnd.nokia.ringing-tone rng")
+mType.addMimeTypes("application/vnd.rn-realplayer rnx")
+mType.addMimeTypes("application/x-troff roff")
+mType.addMimeTypes("image/vnd.rn-realpix rp")
+mType.addMimeTypes("audio/x-pn-realaudio-plugin rpm")
+mType.addMimeTypes("text/richtext rt")
+mType.addMimeTypes("text/vnd.rn-realtext rt")
+mType.addMimeTypes("application/rtf rtf")
+mType.addMimeTypes("application/x-rtf rtf")
+mType.addMimeTypes("text/richtext rtf")
+mType.addMimeTypes("application/rtf rtx")
+mType.addMimeTypes("text/richtext rtx")
+mType.addMimeTypes("video/vnd.rn-realvideo rv")
+mType.addMimeTypes("text/x-asm s")
+mType.addMimeTypes("audio/s3m s3m")
+mType.addMimeTypes("application/octet-stream saveme")
+mType.addMimeTypes("application/x-tbook sbk")
+mType.addMimeTypes("application/x-lotusscreencam scm")
+mType.addMimeTypes("text/x-script.guile scm")
+mType.addMimeTypes("text/x-script.scheme scm")
+mType.addMimeTypes("video/x-scm scm")
+mType.addMimeTypes("text/plain sdml")
+mType.addMimeTypes("application/sdp sdp")
+mType.addMimeTypes("application/x-sdp sdp")
+mType.addMimeTypes("application/sounder sdr")
+mType.addMimeTypes("application/sea sea")
+mType.addMimeTypes("application/x-sea sea")
+mType.addMimeTypes("application/set set")
+mType.addMimeTypes("text/sgml sgm")
+mType.addMimeTypes("text/x-sgml sgm")
+mType.addMimeTypes("text/sgml sgml")
+mType.addMimeTypes("text/x-sgml sgml")
+mType.addMimeTypes("application/x-bsh sh")
+mType.addMimeTypes("application/x-sh sh")
+mType.addMimeTypes("application/x-shar sh")
+mType.addMimeTypes("text/x-script.sh sh")
+mType.addMimeTypes("application/x-bsh shar")
+mType.addMimeTypes("application/x-shar shar")
+mType.addMimeTypes("text/html shtml")
+mType.addMimeTypes("text/x-server-parsed-html shtml")
+mType.addMimeTypes("audio/x-psid sid")
+mType.addMimeTypes("application/x-sit sit")
+mType.addMimeTypes("application/x-stuffit sit")
+mType.addMimeTypes("application/x-koan skd")
+mType.addMimeTypes("application/x-koan skm")
+mType.addMimeTypes("application/x-koan skp")
+mType.addMimeTypes("application/x-koan skt")
+mType.addMimeTypes("application/x-seelogo sl")
+mType.addMimeTypes("application/smil smi")
+mType.addMimeTypes("application/smil smil")
+mType.addMimeTypes("audio/basic snd")
+mType.addMimeTypes("audio/x-adpcm snd")
+mType.addMimeTypes("application/solids sol")
+mType.addMimeTypes("application/x-pkcs7-certificates spc")
+mType.addMimeTypes("text/x-speech spc")
+mType.addMimeTypes("application/futuresplash spl")
+mType.addMimeTypes("application/x-sprite spr")
+mType.addMimeTypes("application/x-sprite sprite")
+mType.addMimeTypes("application/x-wais-source src")
+mType.addMimeTypes("text/x-server-parsed-html ssi")
+mType.addMimeTypes("application/streamingmedia ssm")
+mType.addMimeTypes("application/vnd.ms-pki.certstore sst")
+mType.addMimeTypes("application/step step")
+mType.addMimeTypes("application/sla stl")
+mType.addMimeTypes("application/vnd.ms-pki.stl stl")
+mType.addMimeTypes("application/x-navistyle stl")
+mType.addMimeTypes("application/step stp")
+mType.addMimeTypes("application/x-sv4cpio sv4cpio")
+mType.addMimeTypes("application/x-sv4crc sv4crc")
+mType.addMimeTypes("image/vnd.dwg svf")
+mType.addMimeTypes("image/x-dwg svf")
+mType.addMimeTypes("application/x-world svr")
+mType.addMimeTypes("x-world/x-svr svr")
+mType.addMimeTypes("application/x-shockwave-flash swf")
+mType.addMimeTypes("application/x-troff t")
+mType.addMimeTypes("text/x-speech talk")
+mType.addMimeTypes("application/x-tar tar")
+mType.addMimeTypes("application/toolbook tbk")
+mType.addMimeTypes("application/x-tbook tbk")
+mType.addMimeTypes("application/x-tcl tcl")
+mType.addMimeTypes("text/x-script.tcl tcl")
+mType.addMimeTypes("text/x-script.tcsh tcsh")
+mType.addMimeTypes("application/x-tex tex")
+mType.addMimeTypes("application/x-texinfo texi")
+mType.addMimeTypes("application/x-texinfo texinfo")
+mType.addMimeTypes("application/plain text")
+mType.addMimeTypes("text/plain text")
+mType.addMimeTypes("application/gnutar tgz")
+mType.addMimeTypes("application/x-compressed tgz")
+mType.addMimeTypes("image/tiff tif")
+mType.addMimeTypes("image/x-tiff tif")
+mType.addMimeTypes("image/tiff tiff")
+mType.addMimeTypes("image/x-tiff tiff")
+mType.addMimeTypes("application/x-troff tr")
+mType.addMimeTypes("audio/tsp-audio tsi")
+mType.addMimeTypes("application/dsptype tsp")
+mType.addMimeTypes("audio/tsplayer tsp")
+mType.addMimeTypes("text/tab-separated-values tsv")
+mType.addMimeTypes("image/florian turbot")
+mType.addMimeTypes("text/plain txt")
+mType.addMimeTypes("text/x-uil uil")
+mType.addMimeTypes("text/uri-list uni")
+mType.addMimeTypes("text/uri-list unis")
+mType.addMimeTypes("application/i-deas unv")
+mType.addMimeTypes("text/uri-list uri")
+mType.addMimeTypes("text/uri-list uris")
+mType.addMimeTypes("application/x-ustar ustar")
+mType.addMimeTypes("multipart/x-ustar ustar")
+mType.addMimeTypes("application/octet-stream uu")
+mType.addMimeTypes("text/x-uuencode uu")
+mType.addMimeTypes("text/x-uuencode uue")
+mType.addMimeTypes("application/x-cdlink vcd")
+mType.addMimeTypes("text/x-vcalendar vcs")
+mType.addMimeTypes("application/vda vda")
+mType.addMimeTypes("video/vdo vdo")
+mType.addMimeTypes("application/groupwise vew")
+mType.addMimeTypes("video/vivo viv")
+mType.addMimeTypes("video/vnd.vivo viv")
+mType.addMimeTypes("video/vivo vivo")
+mType.addMimeTypes("video/vnd.vivo vivo")
+mType.addMimeTypes("application/vocaltec-media-desc vmd")
+mType.addMimeTypes("application/vocaltec-media-file vmf")
+mType.addMimeTypes("audio/voc voc")
+mType.addMimeTypes("audio/x-voc voc")
+mType.addMimeTypes("video/vosaic vos")
+mType.addMimeTypes("audio/voxware vox")
+mType.addMimeTypes("audio/x-twinvq-plugin vqe")
+mType.addMimeTypes("audio/x-twinvq vqf")
+mType.addMimeTypes("audio/x-twinvq-plugin vql")
+mType.addMimeTypes("application/x-vrml vrml")
+mType.addMimeTypes("model/vrml vrml")
+mType.addMimeTypes("x-world/x-vrml vrml")
+mType.addMimeTypes("x-world/x-vrt vrt")
+mType.addMimeTypes("application/x-visio vsd")
+mType.addMimeTypes("application/x-visio vst")
+mType.addMimeTypes("application/x-visio vsw")
+mType.addMimeTypes("application/wordperfect6.0 w60")
+mType.addMimeTypes("application/wordperfect6.1 w61")
+mType.addMimeTypes("application/msword w6w")
+mType.addMimeTypes("audio/wav wav")
+mType.addMimeTypes("audio/x-wav wav")
+mType.addMimeTypes("application/x-qpro wb1")
+mType.addMimeTypes("image/vnd.wap.wbmp wbmp")
+mType.addMimeTypes("application/vnd.xara web")
+mType.addMimeTypes("application/msword wiz")
+mType.addMimeTypes("application/x-123 wk1")
+mType.addMimeTypes("windows/metafile wmf")
+mType.addMimeTypes("text/vnd.wap.wml wml")
+mType.addMimeTypes("application/vnd.wap.wmlc wmlc")
+mType.addMimeTypes("text/vnd.wap.wmlscript wmls")
+mType.addMimeTypes("application/vnd.wap.wmlscriptc wmlsc")
+mType.addMimeTypes("application/msword word")
+mType.addMimeTypes("application/wordperfect wp")
+mType.addMimeTypes("application/wordperfect wp5")
+mType.addMimeTypes("application/wordperfect6.0 wp5")
+mType.addMimeTypes("application/wordperfect wp6")
+mType.addMimeTypes("application/wordperfect wpd")
+mType.addMimeTypes("application/x-wpwin wpd")
+mType.addMimeTypes("application/x-lotus wq1")
+mType.addMimeTypes("application/mswrite wri")
+mType.addMimeTypes("application/x-wri wri")
+mType.addMimeTypes("application/x-world wrl")
+mType.addMimeTypes("model/vrml wrl")
+mType.addMimeTypes("x-world/x-vrml wrl")
+mType.addMimeTypes("model/vrml wrz")
+mType.addMimeTypes("x-world/x-vrml wrz")
+mType.addMimeTypes("text/scriplet wsc")
+mType.addMimeTypes("application/x-wais-source wsrc")
+mType.addMimeTypes("application/x-wintalk wtk")
+mType.addMimeTypes("image/x-xbitmap xbm")
+mType.addMimeTypes("image/x-xbm xbm")
+mType.addMimeTypes("image/xbm xbm")
+mType.addMimeTypes("video/x-amt-demorun xdr")
+mType.addMimeTypes("xgl/drawing xgz")
+mType.addMimeTypes("image/vnd.xiff xif")
+mType.addMimeTypes("application/excel xl")
+mType.addMimeTypes("application/excel xla")
+mType.addMimeTypes("application/x-excel xla")
+mType.addMimeTypes("application/x-msexcel xla")
+mType.addMimeTypes("application/excel xlb")
+mType.addMimeTypes("application/vnd.ms-excel xlb")
+mType.addMimeTypes("application/x-excel xlb")
+mType.addMimeTypes("application/excel xlc")
+mType.addMimeTypes("application/vnd.ms-excel xlc")
+mType.addMimeTypes("application/x-excel xlc")
+mType.addMimeTypes("application/excel xld")
+mType.addMimeTypes("application/x-excel xld")
+mType.addMimeTypes("application/excel xlk")
+mType.addMimeTypes("application/x-excel xlk")
+mType.addMimeTypes("application/excel xll")
+mType.addMimeTypes("application/vnd.ms-excel xll")
+mType.addMimeTypes("application/x-excel xll")
+mType.addMimeTypes("application/excel xlm")
+mType.addMimeTypes("application/vnd.ms-excel xlm")
+mType.addMimeTypes("application/x-excel xlm")
+mType.addMimeTypes("application/excel xls")
+mType.addMimeTypes("application/vnd.ms-excel xls")
+mType.addMimeTypes("application/x-excel xls")
+mType.addMimeTypes("application/x-msexcel xls")
+mType.addMimeTypes("application/excel xlt")
+mType.addMimeTypes("application/x-excel xlt")
+mType.addMimeTypes("application/excel xlv")
+mType.addMimeTypes("application/x-excel xlv")
+mType.addMimeTypes("application/excel xlw")
+mType.addMimeTypes("application/vnd.ms-excel xlw")
+mType.addMimeTypes("application/x-excel xlw")
+mType.addMimeTypes("application/x-msexcel xlw")
+mType.addMimeTypes("audio/xm xm")
+mType.addMimeTypes("application/xml xml")
+mType.addMimeTypes("text/xml xml")
+mType.addMimeTypes("xgl/movie xmz")
+mType.addMimeTypes("application/x-vnd.ls-xpix xpix")
+mType.addMimeTypes("image/x-xpixmap xpm")
+mType.addMimeTypes("image/xpm xpm")
+mType.addMimeTypes("image/png x-png")
+mType.addMimeTypes("video/x-amt-showrun xsr")
+mType.addMimeTypes("image/x-xwd xwd")
+mType.addMimeTypes("image/x-xwindowdump xwd")
+mType.addMimeTypes("chemical/x-pdb xyz")
+mType.addMimeTypes("application/x-compress z")
+mType.addMimeTypes("application/x-compressed z")
+mType.addMimeTypes("application/zip zip")
+mType.addMimeTypes("application/octet-stream zoo")
+mType.addMimeTypes("text/x-script.zsh zsh")]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[2001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[2]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:38.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:38.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLineTrt">
+		<Field name="AlwaysExe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColITxt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColPlanComp" type="java.lang.String">null</Field>
+	<Field name="ColTechno" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefITxt" type="com.sunopsis.sql.DbInt"><![CDATA[212001]]></Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefPlanComp" type="java.lang.String">null</Field>
+	<Field name="DefTechno" type="java.lang.String"><![CDATA[JYTHON]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="KcmAk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmCond" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmErrDel" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmJoin" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmNull" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmPk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrnPop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmCreate" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmDrop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmExtend" type="java.lang.String">null</Field>
+	<Field name="KjmLock" type="java.lang.String">null</Field>
+	<Field name="KjmPurge" type="java.lang.String">null</Field>
+	<Field name="KjmSetInstall" type="java.lang.String">null</Field>
+	<Field name="KjmSetUninstall" type="java.lang.String">null</Field>
+	<Field name="KjmSubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmTableOrder" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmUnlock" type="java.lang.String">null</Field>
+	<Field name="KjmUnsubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmAfterInt" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KxmUsed" type="java.lang.String">null</Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="SqlName" type="java.lang.String"><![CDATA[Authenticate User]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[212001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[#encrypt username and password
+user = base64.encodestring('<%=snpRef.getOption("User")%>').replace("\n","")
+pswd = base64.encodestring('<%=snpRef.getOption("Password")%>').replace("\n","")
+
+#Initiate Login
+sender.putcmd("auth login")
+reply = sender.getreply()
+sender.putcmd(user)
+reply = sender.getreply()
+sender.putcmd(pswd)
+reply = sender.getreply()]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[2001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[2]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:44.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:44.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLineTrt">
+		<Field name="AlwaysExe" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColITxt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColPlanComp" type="java.lang.String">null</Field>
+	<Field name="ColTechno" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefITxt" type="com.sunopsis.sql.DbInt"><![CDATA[213001]]></Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefPlanComp" type="java.lang.String">null</Field>
+	<Field name="DefTechno" type="java.lang.String"><![CDATA[JYTHON]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="KcmAk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmCond" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmErrDel" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmJoin" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmNull" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmPk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrnPop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmCreate" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmDrop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmExtend" type="java.lang.String">null</Field>
+	<Field name="KjmLock" type="java.lang.String">null</Field>
+	<Field name="KjmPurge" type="java.lang.String">null</Field>
+	<Field name="KjmSetInstall" type="java.lang.String">null</Field>
+	<Field name="KjmSetUninstall" type="java.lang.String">null</Field>
+	<Field name="KjmSubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmTableOrder" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmUnlock" type="java.lang.String">null</Field>
+	<Field name="KjmUnsubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmAfterInt" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KxmUsed" type="java.lang.String">null</Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
+	<Field name="SqlName" type="java.lang.String"><![CDATA[Write Message from Option]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[213001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[msg='<%=snpRef.getOption("MessageText")%>']]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[2001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[2]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:44.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:44.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLineTrt">
+		<Field name="AlwaysExe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColITxt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColPlanComp" type="java.lang.String">null</Field>
+	<Field name="ColTechno" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefITxt" type="com.sunopsis.sql.DbInt"><![CDATA[214001]]></Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefPlanComp" type="java.lang.String">null</Field>
+	<Field name="DefTechno" type="java.lang.String"><![CDATA[JYTHON]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="KcmAk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmCond" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmErrDel" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmJoin" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmNull" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmPk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrnPop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmCreate" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmDrop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmExtend" type="java.lang.String">null</Field>
+	<Field name="KjmLock" type="java.lang.String">null</Field>
+	<Field name="KjmPurge" type="java.lang.String">null</Field>
+	<Field name="KjmSetInstall" type="java.lang.String">null</Field>
+	<Field name="KjmSetUninstall" type="java.lang.String">null</Field>
+	<Field name="KjmSubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmTableOrder" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmUnlock" type="java.lang.String">null</Field>
+	<Field name="KjmUnsubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmAfterInt" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KxmUsed" type="java.lang.String">null</Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[50]]></Field>
+	<Field name="SqlName" type="java.lang.String"><![CDATA[Load Message from File]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[214001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[filePath = '%r' % ('<%=snpRef.getOption("FilePath")%>')
+filePath = filePath.replace("\\","/").replace("'","")
+f = open(filePath,'r')
+msg = ''
+for line in f.readlines():
+  msg += line
+f.close()]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[2001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[2]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:44.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:44.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLineTrt">
+		<Field name="AlwaysExe" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColITxt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColPlanComp" type="java.lang.String">null</Field>
+	<Field name="ColTechno" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefITxt" type="com.sunopsis.sql.DbInt"><![CDATA[215001]]></Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefPlanComp" type="java.lang.String">null</Field>
+	<Field name="DefTechno" type="java.lang.String"><![CDATA[JYTHON]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="KcmAk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmCond" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmErrDel" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmJoin" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmNull" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmPk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrnPop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmCreate" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmDrop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmExtend" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmLock" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmPurge" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmSetInstall" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmSetUninstall" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmSubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmTableOrder" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmUnlock" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmUnsubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmAfterInt" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KxmUsed" type="java.lang.String">null</Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 19:20:22.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[60]]></Field>
+	<Field name="SqlName" type="java.lang.String"><![CDATA[Create Full Message]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[215001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[message = StringIO.StringIO()
+writer = MimeWriter.MimeWriter(message)
+
+writer.addheader('From', '<%=snpRef.getOption("From")%>')
+writer.addheader('To', '<%=snpRef.getOption("To")%>')
+writer.addheader('Subject', '<%=snpRef.getOption("Subject")%>')
+writer.addheader('X-Priority', '<%=snpRef.getOption("Priority")%>')
+writer.startmultipartbody('mixed')
+
+# Write the Text
+part = writer.nextpart()
+textMime=<%if (snpRef.getOption("Is HTML").equals("1")){%>'text/html; charset=<%=snpRef.getOption("Charset")%>'<%} else {%>'text/plain; charset=<%=snpRef.getOption("Charset")%>'<%}%>
+body = part.startbody(textMime)
+body.write(msg)
+
+# Add the attachment parts
+attPath = '%r' % ('<%=snpRef.getOption("Attachments")%>')
+attPath = attPath.replace("\\","/").replace("'","")
+attArray=attPath.split(",")
+
+for attPath in attArray:
+  partMime = mType.getContentType(attPath)
+  print partMime
+  part = writer.nextpart()
+  part.addheader('Content-Transfer-Encoding', 'base64')
+  part.addheader('Content-Disposition', 'attachment;filename=%s;' % attPath[1 + attPath.rindex("/") : len(attPath) ] )
+  body = part.startbody(partMime)
+  #body = part.startbody(partMime + '; name=' + attName)
+
+  attFile=open(attPath, 'rb')
+  base64.encode(attFile, body)
+  attFile.close()
+
+# finish off
+writer.lastpart()]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[2001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[2]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 19:20:22.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 19:20:22.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLineTrt">
+		<Field name="AlwaysExe" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColITxt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColPlanComp" type="java.lang.String">null</Field>
+	<Field name="ColTechno" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefITxt" type="com.sunopsis.sql.DbInt"><![CDATA[216001]]></Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefPlanComp" type="java.lang.String">null</Field>
+	<Field name="DefTechno" type="java.lang.String"><![CDATA[JYTHON]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="KcmAk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmCond" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmErrDel" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmJoin" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmNull" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmPk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrnPop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmCreate" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmDrop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmExtend" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmLock" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmPurge" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmSetInstall" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmSetUninstall" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmSubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmTableOrder" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmUnlock" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmUnsubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmAfterInt" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KxmUsed" type="java.lang.String">null</Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 19:05:31.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[70]]></Field>
+	<Field name="SqlName" type="java.lang.String"><![CDATA[Send Message]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[216001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[sender.sendmail('<%=snpRef.getOption("From")%>','<%=snpRef.getOption("To")%>',message.getvalue().encode('<%=snpRef.getOption("Charset")%>'))
+]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[2001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[2]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 19:05:30.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 19:05:30.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLineTrt">
+		<Field name="AlwaysExe" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColITxt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColPlanComp" type="java.lang.String">null</Field>
+	<Field name="ColTechno" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefITxt" type="com.sunopsis.sql.DbInt"><![CDATA[217001]]></Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefPlanComp" type="java.lang.String">null</Field>
+	<Field name="DefTechno" type="java.lang.String"><![CDATA[JYTHON]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="KcmAk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmCond" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmErrDel" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmJoin" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmNull" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KcmPk" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KimJrnPop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmCreate" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmDrop" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmExtend" type="java.lang.String">null</Field>
+	<Field name="KjmLock" type="java.lang.String">null</Field>
+	<Field name="KjmPurge" type="java.lang.String">null</Field>
+	<Field name="KjmSetInstall" type="java.lang.String">null</Field>
+	<Field name="KjmSetUninstall" type="java.lang.String">null</Field>
+	<Field name="KjmSubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmTableOrder" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KjmUnlock" type="java.lang.String">null</Field>
+	<Field name="KjmUnsubscribe" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmAfterInt" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KlmJrn" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KxmUsed" type="java.lang.String">null</Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:46.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[80]]></Field>
+	<Field name="SqlName" type="java.lang.String"><![CDATA[Close Connection]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxt">
+		<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[217001]]></Field>
+	<Field name="TxtOrd" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[sender.quit()]]></Field>
+	<Field name="LangName" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[2001]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[2]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:45.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-08-22 14:58:45.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLineTrtUe">
+		<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[23001]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLineTrtUe">
+		<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[5001]]></Field>
+	<Field name="IUserExit" type="com.sunopsis.sql.DbInt"><![CDATA[29001]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[50]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[4]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[26]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[25]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+</Object>
+</SunopsisExport>
